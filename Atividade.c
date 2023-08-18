@@ -9,7 +9,8 @@ main () {
     char Curso[25];
     char Periodo[12];
     char Disciplina[15];
-
+    float Mensalidade;
+    
     printf("Digite seu nome: \n"); 
     fgets(Nome, 30, stdin);
     fflush(stdin);
@@ -36,6 +37,10 @@ main () {
 
     printf("Digite a disciplina: \n");
     fgets(Disciplina, 15, stdin);
+    fflush(stdin);
+    
+    printf("Digite a mensalidade: \n");
+    scanf("%f", &Mensalidade);
     
     printf("\nSeu nome: %s", Nome);
     printf("\nSua idade: %d\n", Idade);
@@ -44,6 +49,6 @@ main () {
     printf("\nSeu curso: %s", Curso);
     printf("\nPeriodo: %s", Periodo);
     printf("\nDisciplina: %s", Disciplina);
-
+    printf("\nMensalidade: %f", Mensalidade);
 
 }
