@@ -56,7 +56,7 @@ main () {
     printf("\nSeu curso: %s", Curso);  
     printf("\nPeriodo: %d\n", Periodo);
     printf("\nDisciplina: %s", Disciplinas);
-    printf("\nMensalidade: %f", Mensalidade);
+    printf("\nMensalidade: %.2f", Mensalidade);
 
     printf("\n______________________________________________\n");
 
